@@ -21,7 +21,7 @@ repos:
         name: ruff
         stages: [commit]
         types: [python]
-        entry: poetry run ruff .
+        entry: poetry run ruff check .
         language: system
         pass_filenames: false
         always_run: true
