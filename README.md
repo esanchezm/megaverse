@@ -88,7 +88,9 @@ I'm creating the new API clients and some `Enum` classes to make sure I can only
 
 Oh, that should be easy to fix with retries in the API Client. The library has support and all I need to do is create a decorator using `tenacity` in the methods I want. I run it again, waiting for completion and...
 
-![](./image/office.gif)
+<p align="center">
+<img src="https://raw.githubusercontent.com/esanchezm/megaverse/master/img/office.gif" >
+</p>
 
 ### Final thoughts
 
