@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 
-import json
 import logging
-import sys
 
-import requests
 from cleo.application import Application
 
 from .commands import ReconcileCommand
